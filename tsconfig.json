@@ -5,6 +5,8 @@
     "esModuleInterop": true,
     "strict": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,  // Habilita o uso de decoradores
+    "emitDecoratorMetadata": true    // Gera metadados para decoradores (usado em alguns frameworks, como o Angular)
   }
 }
