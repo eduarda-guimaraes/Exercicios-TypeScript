@@ -9,5 +9,6 @@ function classificarIMC(imc: number): string {
   return "Obesidade";
 }
 
-const imc = calcularIMC(70, 1.75);
-console.log(classificarIMC(imc));
+const imc = calcularIMC(57, 1.63);
+
+console.log("Meu IMC: "+classificarIMC(imc));
